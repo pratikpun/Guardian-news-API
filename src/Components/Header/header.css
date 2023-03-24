@@ -1,0 +1,15 @@
+.navbar {
+  background-color: #464f51;
+  font-family: "Trattatello", cursive;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  /* text-decoration: underline; */
+  font-weight: bold;
+  /* margin: auto; */
+  width: 100%;
+}
+.nav-title {
+  color: white;
+  font-size: 40px;
+}

@@ -1,0 +1,33 @@
+.content {
+  text-align: center;
+  margin: auto;
+  background-color: #11151c;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 20px auto;
+}
+.title:hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+  color: red;
+}
+.bodyText {
+  color: white;
+  text-align: left;
+}
+main {
+  padding: 0 30px 30px;
+  max-width: 60%;
+  margin: auto;
+  color: white;
+}
+
+.author {
+  margin: 20px auto;
+  border: 1px solid white;
+  padding: 10px;
+  width: 50%;
+}
