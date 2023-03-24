@@ -1,18 +1,19 @@
-# News Summary Challenge
+# Guardian News Summary using API
 
 ### Task
 
-You'll test-drive a single page application in React that send requests to the Guardian API to get Headline and Article data and display them. 
+You'll test-drive a single page application in React that send requests to the Guardian API to get Headline and Article data and display them.
 
 ### Serving your app
 
-You'll use React's toolchain to take care of serving your HTML, CSS and JavaScript files.  
+You'll use React's toolchain to take care of serving your HTML, CSS and JavaScript files.
 
 ## User Stories
 
 Some of these stories will need decomposing if they seem too large.
 
 ### Standard
+
 ```
 As a busy politician
 So I know what the big stories of the day are
@@ -67,18 +68,19 @@ I can see whizzy animations in the app
 
 The Guardian and Aylien text summarisation APIs are severely rate-limited.
 
-**Please stub your tests so you don't exceed the daily limit.  Otherwise, all requests will be rejected and your app will stop working!**
+**Please stub your tests so you don't exceed the daily limit. Otherwise, all requests will be rejected and your app will stop working!**
 
 ### Guardian API example
 
 **Please stub your tests to avoid exceeding the API rate limit**
 
-If you wanted to get the content of an article from the Guardian API, this is the cURL request you might make.  Notice how it has a query parameter for `api-key`.
+If you wanted to get the content of an article from the Guardian API, this is the cURL request you might make. Notice how it has a query parameter for `api-key`.
 
 ```sh
 # Search endpoint
 curl "https://content.guardianapis.com/search?q=coronavirus&show-fields=body&api-key=API_KEY"
 ```
+
 ```sh
 # Single Item endpoint
 curl "https://content.guardianapis.com/world/2021/mar/22/link-between-diabetes-and-coronavirus-infections?show-fields=body&api-key=API_KEY"
@@ -86,11 +88,11 @@ curl "https://content.guardianapis.com/world/2021/mar/22/link-between-diabetes-a
 
 #### Example request data
 
-[Mock Data](./mockNewsData.json) - contains a request to the Guardian API with fields selected that will help you with the challenge.  The actual request made was to:
+[Mock Data](./mockNewsData.json) - contains a request to the Guardian API with fields selected that will help you with the challenge. The actual request made was to:
 
 https://content.guardianapis.com/search?order-by=newest&show-fields=byline%2Cthumbnail%2Cheadline%2CbodyText&api-key=INSERT_YOUR_KEY_HERE
 
-You will need to replace `INSERT_YOUR_KEY_HERE` with your own Guardian API key.  Use this data whilst developing, serving it from `json-server` - it will help on the request rate limit in the API.
+You will need to replace `INSERT_YOUR_KEY_HERE` with your own Guardian API key. Use this data whilst developing, serving it from `json-server` - it will help on the request rate limit in the API.
 
 <!-- ### Aylien text summarisation API example
 
@@ -107,10 +109,10 @@ curl "https://api.aylien.com/api/v1/summarize?url=http://worrydream.com/MediaFor
 
 ## Resources
 
-* [Guardian newspaper API homepage](http://open-platform.theguardian.com/documentation/)
+- [Guardian newspaper API homepage](http://open-platform.theguardian.com/documentation/)
 <!-- * [Aylien text summary API docs](http://docs.aylien.com/docs/summarize) -->
-* cURL [man page](https://curl.haxx.se/docs/manpage.html)
-* [Hurl](https://www.hurl.it/), a web interface for sending HTTP requests
+- cURL [man page](https://curl.haxx.se/docs/manpage.html)
+- [Hurl](https://www.hurl.it/), a web interface for sending HTTP requests
 
 ---
 
@@ -144,4 +146,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-# Guardian-news-API
