@@ -8,7 +8,7 @@ export const getAPIDataAsync = async () => {
     // );
 
     const responseData = await axios.get(
-      process.env.REACT_APP_DATA_SERVICE_URL
+      `${process.env.REACT_APP_DATA_SERVICE_URL}`
     );
 
     // GUARDIAN URL
